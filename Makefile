@@ -1,9 +1,9 @@
 # standard info
-PROJECT = poker
+PROJECT = holdem
 REGISTRY = registry.giantswarm.io
 USERNAME := $(shell swarm user)
 ORG := $(shell swarm env | cut -d/ -f1)
-SLACK_TOKEN="xxxx-xxxx-xxxx"
+SLACK_TOKEN="xoxb-10023012097-Nw7snCikE770UpvcS5tFkNCg"
 
 # local info
 MY_IP = $(shell boot2docker ip)
